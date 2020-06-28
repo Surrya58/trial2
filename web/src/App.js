@@ -29,7 +29,7 @@ class App extends Component {
             urls : 'stun:stun.l.google.com:19302'
           },
           {
-            url: 'turn:54.236.51.153:3478',
+            url: 'turn:54.160.89.84:3478',
             credential: 'root',
             username: 'root',
           }
@@ -48,8 +48,7 @@ class App extends Component {
       disconnected: false,
     }
 
-    this.serviceIP = 'https://42045d68ee93.ngrok.io/webrtcPeer'
-
+    this.serviceIP = window.location.origin + '/webrtcPeer'
     this.socket = null
   }
 
