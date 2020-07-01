@@ -26,9 +26,9 @@ class App extends Component {
         // 2-> and then learn about the get and post requests to refactor the code.
           <div>
                   <div>let's start !!</div>
-                  <div>what to do next is the important question ? </div>
-                  <div>this is an online vido conferencing platform</div>
-                  <button onClick={ () => {this.onClick()} }> Click here to navigate </button>
+                  <div>Welcome to naukri-rms </div>
+                  <div> Online vido conferencing platform</div>
+                  <button onClick={ () => {this.onClick()} }> Click here to enter to join the video conference </button>
                   { this.state.ok === true && <MyApp /> } 
                   {/*Calling this function only when it is required */}
           </div>
