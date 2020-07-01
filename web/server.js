@@ -1,4 +1,3 @@
-
 const express = require('express')
 
 var io = require('socket.io')
@@ -11,7 +10,6 @@ const port = 8080
 
 const rooms = {}
 const messages = {}
-
 
 app.use(express.static(__dirname + '/build'))
 app.get('/', (req, res, next) => { //default room
@@ -36,7 +34,7 @@ app.post('/:room', (req, res, next) => {
 //   res.status(200).json({data: 'test'})
 // })
 
-const server = app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+const server = app.listen(port, () => console.log(`App listening on port ${port}!`))
 
 io.listen(server)
 
