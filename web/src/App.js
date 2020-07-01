@@ -25,7 +25,7 @@ class App extends Component {
         // 1-> objective is to develop a UI in this page and then re-direct it to MyApp component, in which the participant can join the room-meeting;
         // 2-> and then learn about the get and post requests to refactor the code.
           <div>
-                  <div>let's start !!</div>
+                  <div>Let's start !!</div>
                   <div>Welcome to naukri-rms </div>
                   <div> Online vido conferencing platform</div>
                   <button onClick={ () => {this.onClick()} }> Click here to enter to join the video conference </button>
