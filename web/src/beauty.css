@@ -1,0 +1,333 @@
+.candDet.newTuple {
+    background: #18111540;
+}
+
+.oh {
+    overflow: hidden;
+    *height: 100%;
+    *clear: both
+}
+
+.expDetails {
+    overflow: hidden;
+    padding: 15px 0 0 27px;
+    border-bottom: 1px solid #efeff0;
+    *clear: both;
+    *height: 100%
+}
+
+.addProj .row,
+.cle,
+.headWrap,
+.innerSearchRow {
+    min-height: 0;
+    _zoom: 1
+}
+
+.expLeft {
+    float: left;
+    width: 49%;
+    padding-right: 1%;
+    *width: 48%
+}
+
+.expRight {
+    float: left;
+    width: 49%
+}
+
+/* .a_candidateIc,
+.accIc,
+.addCandic,
+.arrowRG,
+.asignIc,
+.bArrowIc,
+.bRarrow,
+.b_dwnIcn,
+.b_upIcn,
+.backTopIc,
+.bagIc,
+.blueInfoIc,
+.botArrowIc,
+.calendar,
+.carrerWalkinIc,
+.check,
+.checkIcon,
+.cloudIc,
+.cloudelIc,
+.commentIc,
+.contactIc,
+.cros,
+.crossIcon,
+.csmIc,
+.ddIc,
+.delIcon,
+.delIcon:hover,
+.disLike,
+.docxIc,
+.downArrow,
+.downloadIc,
+.downloaded,
+.dropArrow,
+.editIc,
+.error,
+.excelArw,
+.extndBotIc,
+.extndTopIc,
+.eyeIc,
+.featureIc,
+.fileIc,
+.folderIc,
+.forwardIc,
+.gCheck,
+.gCross,
+.graphIc,
+.humanIc,
+.imgIc,
+.inboxIc,
+.infoIc,
+.inputAdd,
+.keyIc,
+.like,
+.linkedin,
+.listIc,
+.locIc,
+.mergeIc,
+.mobIc,
+.modifyIc,
+.monsterIc,
+.msgGreen,
+.msgGreyIc,
+.msgIc,
+.msg_gIc,
+.msg_greenIc,
+.nWalkinIc,
+.notMapped,
+.notSameCand,
+.pdfIc,
+.phGreyIc,
+.phoneIc,
+.pptIc,
+.premiumIc,
+.qualificatnIc,
+.quesIc,
+.refreshIc,
+.replyIc,
+.rightArrow,
+.sPhoneIc,
+.sPhoneIcGrey,
+.s_dropArrow,
+.s_fbIc,
+.s_naukriIc,
+.s_pdfIc,
+.s_twitterIc,
+.saveIc,
+.searchIc,
+.settingIc,
+.shinejIc,
+.stageList li a.rightArrow.active,
+.suggestHead small,
+.tagIc,
+.timeIc,
+.timesjIc,
+.topArowIc,
+.topArrowB,
+.topArrowG,
+.unCheck,
+.userAdd,
+.viewIc,
+.walletIc,
+.warnIc,
+.zipIc,
+ul.pStageList small {
+    display: inline-block;
+    background: url(../i/sm_icon_v2.png) no-repeat;
+    vertical-align: top;
+    overflow: hidden
+} */
+
+.fl {
+    float: left
+}
+
+
+.pl5 {
+    padding-left: 5px
+}
+
+.pb3 {
+    padding-bottom: 3px
+}
+
+.interDrop,
+.notifyDrop {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 7px;
+    position: relative
+}
+
+.pRel {
+    position: relative
+}
+
+.statusNav,
+.subNav,
+ul.subNav {
+    position: absolute;
+    float: left;
+    border: 1px solid #c6cfd1;
+    background: #fff;
+    z-index: 10000;
+    display: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px #dfdfe0;
+    -moz-box-shadow: 0 2px 4px 0 #dfdfe0;
+    -webkit-box-shadow: 0 2px 4px 0 #dfdfe0
+}
+
+/* .a_candidateIc,
+.accIc,
+.addCandic,
+.arrowRG,
+.asignIc,
+.bArrowIc,
+.bRarrow,
+.b_dwnIcn,
+.b_upIcn,
+.backTopIc,
+.bagIc,
+.blueInfoIc,
+.botArrowIc,
+.calendar,
+.carrerWalkinIc,
+.check,
+.checkIcon,
+.cloudIc,
+.cloudelIc,
+.commentIc,
+.contactIc,
+.cros,
+.crossIcon,
+.csmIc,
+.ddIc,
+.delIcon,
+.delIcon:hover,
+.disLike,
+.docxIc,
+.downArrow,
+.downloadIc,
+.downloaded,
+.dropArrow,
+.editIc,
+.error,
+.excelArw,
+.extndBotIc,
+.extndTopIc,
+.eyeIc,
+.featureIc,
+.fileIc,
+.folderIc,
+.forwardIc,
+.gCheck,
+.gCross,
+.graphIc,
+.humanIc,
+.imgIc,
+.inboxIc,
+.infoIc,
+.inputAdd,
+.keyIc,
+.like,
+.linkedin,
+.listIc,
+.locIc,
+.mergeIc,
+.mobIc,
+.modifyIc,
+.monsterIc,
+.msgGreen,
+.msgGreyIc,
+.msgIc,
+.msg_gIc,
+.msg_greenIc,
+.nWalkinIc,
+.notMapped,
+.notSameCand,
+.pdfIc,
+.phGreyIc,
+.phoneIc,
+.pptIc,
+.premiumIc,
+.qualificatnIc,
+.quesIc,
+.refreshIc,
+.replyIc,
+.rightArrow,
+.sPhoneIc,
+.sPhoneIcGrey,
+.s_dropArrow,
+.s_fbIc,
+.s_naukriIc,
+.s_pdfIc,
+.s_twitterIc,
+.saveIc,
+.searchIc,
+.settingIc,
+.shinejIc,
+.stageList li a.rightArrow.active,
+.suggestHead small,
+.tagIc,
+.timeIc,
+.timesjIc,
+.topArowIc,
+.topArrowB,
+.topArrowG,
+.unCheck,
+.userAdd,
+.viewIc,
+.walletIc,
+.warnIc,
+.zipIc,
+ul.pStageList small {
+    display: inline-block;
+    background: url(../i/sm_icon_v2.png) no-repeat;
+    vertical-align: top;
+    overflow: hidden
+} */
+
+.ml10 {
+    margin-left: 10px
+}
+
+.ml15 {
+    margin-left: 15px
+}
+
+.ml17 {
+    margin-left: 17px
+}
+
+.ml27 {
+    margin-left: 27px
+}
+
+.ml23 {
+    margin-left: 23px
+}
+
+.ml40 {
+    margin-left: 40px
+}
+
+.ml30 {
+    margin-left: 30px
+}
+
+.mr3 {
+    margin-right: 3px
+}
+
+.mr5 {
+    margin-right: 5px
+}

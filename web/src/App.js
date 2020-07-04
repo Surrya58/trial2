@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import MyApp from './MyApp'
+import Intro from './Intro'
+
 class App extends Component { 
 
     constructor(props) { 
@@ -25,13 +27,12 @@ class App extends Component {
         // 1-> objective is to develop a UI in this page and then re-direct it to MyApp component, in which the participant can join the room-meeting;
         // 2-> and then learn about the get and post requests to refactor the code.
           <div>
-                  <div>Let's start !!</div>
-                  <div>Welcome to naukri-rms </div>
-                  <div> Online vido conferencing platform</div>
-                  <button onClick={ () => {this.onClick()} }> Click here to enter to join the video conference </button>
+                  { this.state.ok === false && <Intro onClick={this.onClick}/>}
                   { this.state.ok === true && <MyApp /> } 
                   {/*Calling this function only when it is required */}
           </div>
+
+          
       );
    }
 }
