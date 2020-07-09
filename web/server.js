@@ -11,24 +11,28 @@ const port = 8080
 const rooms = {}
 const messages = {}
 
+
 app.use(express.static(__dirname + '/build'))
+
 app.get('/', (req, res, next) => { //default room
     res.sendFile(__dirname + '/build/index.html')
 })
 
 app.get('/:room', (req, res, next) => {
   res.sendFile(__dirname + '/build/index.html')
-  // res.status(200).json({data: 'test'})
+  //res.status(200).json({data: 'test'})
 })
 
 // ************************************* //
 // ************************************* //
 app.post('/:room', (req, res, next) => {
-  // res.sendFile(__dirname + '/build/index.html')
+  //res.sendFile(__dirname + '/build/index.html')
   console.log(req.body)
   res.status(200).json({data: req.body})
 })
 
+//1.post-method to generate room-url;
+//2.array to store previouis url's ;
 
 // app.get('/:test', (req, res, next) => { //default room
 //   res.status(200).json({data: 'test'})
@@ -44,7 +48,6 @@ io.on('connection', socket => {
 })
 
 const peers = io.of('/webrtcPeer')
-
 
 peers.on('connection', socket => {
 
@@ -65,6 +68,7 @@ peers.on('connection', socket => {
   // const broadcast = () => socket.broadcast.emit('joined-peers', {
   //   peerCount: connectedPeers.size,
   // })
+
   const broadcast = () => {
     const _connectedPeers = rooms[room]
 

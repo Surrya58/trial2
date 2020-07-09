@@ -1,5 +1,5 @@
 .candDet.newTuple {
-    background: #18111540;
+    background: #02000740;
 }
 
 .oh {
@@ -36,7 +36,15 @@
     width: 49%
 }
 
-/* .a_candidateIc,
+.candName {
+    font-size: 24px;
+    width: 495px;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+
+.a_candidateIc,
 .accIc,
 .addCandic,
 .arrowRG,
@@ -141,10 +149,10 @@
 .zipIc,
 ul.pStageList small {
     display: inline-block;
-    background: url(../i/sm_icon_v2.png) no-repeat;
+    background: url(./i/sm_icon_v2.png) no-repeat;
     vertical-align: top;
     overflow: hidden
-} */
+} 
 
 .fl {
     float: left
@@ -186,7 +194,7 @@ ul.subNav {
     -webkit-box-shadow: 0 2px 4px 0 #dfdfe0
 }
 
-/* .a_candidateIc,
+.a_candidateIc,
 .accIc,
 .addCandic,
 .arrowRG,
@@ -291,10 +299,10 @@ ul.subNav {
 .zipIc,
 ul.pStageList small {
     display: inline-block;
-    background: url(../i/sm_icon_v2.png) no-repeat;
+    background: url(./i/sm_icon_v2.png) no-repeat;
     vertical-align: top;
     overflow: hidden
-} */
+} 
 
 .ml10 {
     margin-left: 10px
@@ -330,4 +338,13 @@ ul.pStageList small {
 
 .mr5 {
     margin-right: 5px
+}
+
+.pos { 
+    position:relative;
+    right:20px;
+}
+
+.p1 {
+    padding: 1px
 }

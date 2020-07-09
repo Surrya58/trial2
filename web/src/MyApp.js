@@ -219,7 +219,7 @@ class MyApp extends Component {
 
       this.getLocalStream()
       // console.log(data.success)
-        const status = data.peerCount > 1 ? `Connection successful` : 'waiting for connection'
+      const status = data.peerCount > 1 ? `Connection successful` : 'waiting for connection'
       this.setState({
         status: status,
         messages: data.messages
