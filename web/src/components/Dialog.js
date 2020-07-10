@@ -13,7 +13,9 @@ let dialogStyles = {
     padding: '10px 20px 40px',
     borderRadius: '8px',
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    backgroundColor: '#7FFF00',
+
 };
 
 let dialogCloseButtonStyles = {
