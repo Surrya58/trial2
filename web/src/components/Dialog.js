@@ -2,12 +2,11 @@ import React, { Component } from 'react';
 
 let dialogStyles = {
     width: '550px',
-    height: '250px',
     maxWidth: '100%',
     margin: '0 auto',
     position: 'fixed',
     left: '50%',
-    top: '50%',
+    top: '40%',
     transform: 'translate(-50%,-50%)',
     zIndex: '999',
     backgroundColor: '#fff',
@@ -45,6 +44,7 @@ class Dialog extends Component {
     render() {
         let dialog = (
             <div style={dialogStyles}>
+		<div>
                 <button style={dialogCloseButtonStyles} onClick={this.props.onClose}>x</button>
 
                 <table style={dialogContent1} width="100%" cellspacing="0" cellpadding="15">  <tbody><tr> <td> Microsoft </td> </tr>  <tr> <td id="m_-8693798704384470617mailBodyData" style={dialogContent2}> Dear Ram, <br/><br/>An interview is being scheduled for testing bate1                 <ul>                 <li>Interview On: 11th July 2020</li>                 <li>Location: At your desk
@@ -52,6 +52,7 @@ class Dialog extends Component {
 		<br/>------------------------------------------------------------------------------------------------<br/>                 </ul><br/><br/>                 Please find the candidates details attached with the mail.<br/><br/>                 Thanks and Regards <br/>                
 <a href="mailto:surrya@naukri.com" target="_blank">surrya.@naukri.com</a> </td>   </tr>  </tbody></table>
                 <div>{this.props.children}</div>
+		</div>
             </div>
         );
 
