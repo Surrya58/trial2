@@ -6,7 +6,7 @@ let dialogStyles = {
     margin: '0 auto',
     position: 'fixed',
     left: '50%',
-    top: '40%',
+    top: '50%',
     transform: 'translate(-50%,-50%)',
     zIndex: '999',
     backgroundColor: '#fff',
