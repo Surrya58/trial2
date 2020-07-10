@@ -69,8 +69,7 @@ class App extends Component {
                  {/* <button onClick={this.getCurrentDate}> Click this to set the current date</button>  */}
                  {/* <div> {this.state.now} </div>  */}
 
-                 <div> This is the url of the current page : {this.state.loc} </div>
-                 
+                 {/* <div> This is the url of the current page : {this.state.loc} </div>
                  <button    onClick={ () => { 
                             this.setOpen();
                             this.getCurrentDate();
@@ -81,7 +80,7 @@ class App extends Component {
                  <Dialog isOpen={this.state.isOpen} onClose={(e) => this.setState({ isOpen: false })}>
                      {this.state.loc}{this.state.now}  is the current value of the link : 
                      interview is going to be conducted on this date and so on ;;;;
-                 </Dialog>
+                 </Dialog> */}
 
                   {/* { this.state.ok === false && <Intro onClick={this.onClick}/> } */}
                   { this.state.pp === 1 && <Intro onClick = {this.onClick} /> }

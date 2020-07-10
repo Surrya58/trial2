@@ -3,12 +3,23 @@ import './beauty.css'
 import './trial.css'
 import './trial1.css'
 import './trial2.css'
+import Dialog from './components/Dialog';
+import { BrowserRouter as Router, Link, NavLink, Redirect, Prompt} from 'react-router-dom';
 
 class Intro extends Component {
 
     constructor(props) {
         super(props);
+
+        this.state =  {
+        now : '',
+        pp : window.location.pathname.length ,
+        loc: window.location.href ,
+        isOpen:false 
+        }
         this._clickButton = this._clickButton.bind(this);
+        this.getCurrentDate = this.getCurrentDate.bind(this);
+        this.setOpen = this.setOpen.bind(this);
     }
 
     //can be fired using a an_event;;;
@@ -16,10 +27,41 @@ class Intro extends Component {
         const { onClick } = this.props;
         onClick();
     }
+
+    getCurrentDate() { 
+      var tempDate = new Date();
+      var date = ' ' + tempDate.getFullYear() 
+      + (tempDate.getMonth()+1) 
+      + tempDate.getDate() 
+      + tempDate.getHours()
+      + tempDate.getMinutes()
+      + tempDate.getSeconds()
+      + tempDate.getMilliseconds() + ' ';
+
+      this.setState({ now : date });
+
+      console.log(date);
+    }
+
+    setOpen() { 
+      this.setState({ isOpen:true });
+    }
+
+    componentDidMount() { 
+      this.getCurrentDate();
+    }
+
     render() {
         return (
 
+          
            <div>
+
+         <Dialog isOpen={this.state.isOpen} onClose={(e) => this.setState({ isOpen: false })}>
+          {this.state.loc}{this.state.now}  is the current value of the link : 
+          interview is going to be conducted on this date and so on ;;;;
+           </Dialog>
+  
               <div>
               <div class="wrap cle mt5">
               <div id="profileListingDiv" className="w750 fr">
@@ -41,7 +83,11 @@ class Intro extends Component {
                
                 <div class="cle ">
                 <p>
-                 <span> <input type="button " class="blue_btn fl " id="buttonID " value="Generate Interview Link " rel=" " /> </span>
+                 <span> <input type="button " class="blue_btn fl " id="buttonID "  onClick={ () => { 
+                            this.setOpen();
+                            this.getCurrentDate();
+                             } }
+                             value="Generate Interview Link " rel=" " /> </span>
                 </p> 
                 <p>   </p> 
                 </div>
