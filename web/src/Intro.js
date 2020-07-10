@@ -66,37 +66,13 @@ class Intro extends Component {
                 pr3 "> <small class=" s_listed fr " className="offer125">  Prospect </small></span>  <span class=" dIb "> <span class="
                 textS9 " title=" Lokesh Agrawal ">by  you on 09 Jul 2020</span></span> </a> </li>   </ul> <a href="
                 javascript:void(0); "> <p><small class=" f9c6 pr3 ">on</small><em id=" date1 " class="
-                tipText ">09 Jul 20</em></p> </a>  </div> </div>  <div id=" replaceStarRating9575158 " class="
-                ratingOuter ">  <div id=" starRating-9575158 " class=" sRate pointerDisable fl mt5 ml5 "><ul><li id="
-                starRating-9575158Str_0 " class=" inactive "></li><li id=" starRating-9575158Str_1 " class="
-                inactive "></li><li id=" starRating-9575158Str_2 " class=" inactive "></li><li id="
-                starRating-9575158Str_3 " class=" inactive "></li><li id=" starRating-9575158Str_4 " class="
-                inactive "></li></ul><input type=" hidden " id=" starRating-9575158_val " value=" 0 " /></div>
-                 <input id="
-                profileId9575158 " value=" 3107570 " type=" hidden " />     <div class=" interDrop fl pRel menu1
-                pl0 " id="
-                menuStarRating9575158 " >  
-                </div> <div>  </div> </div> <div class="
-                hiringR_Sec "> <a href=" javascript:void(0); " class=" comntOuter br2 " id="
-                comntOuter3107570 " onclick=" showComments( '/activity/getComments' ,1384256,3107570,118388
-                ,9575158) "> <small class=" botArrowIc "></small> <small class=" commentIc mt3 "></small> <span id="
-                commentCountDisplay_3107570 ">  0  </span> </a>        <span title=" Exists in your database and can be
-                downloaded or forwarded for free "> <small class=" prsnlDb fr mt8 ml5 "></small> </span> <div class=" fr
-                pRel "> <div class=" interDrop fl menu1 ">  <input id=" vendorSource_9575158 " type=" hidden " value="
-                Single Upload " /> <a href=" javascript:void(0); " class=" oh tr " rel=" ver " title=" Single Upload - 09
-                Jul 2020, 02:40:53 ">Single Upload</a>  <a href=" javascript:void(0); " class=" tr ">   <small class="
-                f9c6 pr3 ">on</small> <em id=" date3 " class=" tipText " title=" Single Upload - 09 Jul 2020,
-                02:40:53 ">09 Jul 20</em>  </a> </div>  <small class="uploadNw fr mt8
-                ml5 "></small>  </div> </div>  </div>    <div id="
+                tipText ">09 Jul 20</em></p> </a>  </div> </div>   </div>    <div id="
                 statusDataCaptureDiv_9575158 ">                 <div class=" subStage srpStatus cle " id="
                 subStageStatusChange ">  <div class=" fl "> <div> <div>  Joining as  <span class="
                 offrDesignation ">yfKzYVfomN</span>  </div> <div class=" mt5 "> <div> <span class="
                 salOffer ">Salary Offered: </span>  <span title=" ₹89,470 ">₹89,470</span>  <span class="
                 joiningOn ">Offered On: </span> <span>10 Jul 2020 </span> <span class="
-                joiningOn ">Joining On: </span> <span>19 Jul 2020</span> </div> </div> </div>  </div>   <div class="
-                btnGp fr rel mt8 current-offer-status ">  <a class=" " href=" javascript:void(0) " onclick="
-                window.renderOfferLayer(0, '9575158' , '1067' , '2615' , true) "> <small class="
-                editIc "></small> </a>  </div>     <div class="
+                joiningOn ">Joining On: </span> <span>19 Jul 2020</span> </div> </div> </div>  </div>    <div class="
                 candOffrStatus "> Mail to Candidate Pending </div>  <img class=" srpOfferStatusImg " src="
                 https://img.naukimg.com/s/4/124/i/yellow.png " />    </div>   </div>
 
