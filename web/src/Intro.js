@@ -99,7 +99,7 @@ class Intro extends Component {
                 <div class=" pb10 ">  </div> 
                 <div class=" fl interOuter "> <div>  </div> <div class=" interview " id="
                 interview_mod9575158 " data-offerall=" 1 ">         <a href=" javascript:void(0) "> <span class="
-                interTxt " data-id=" 1067_2615 " title=" Offer Round - Joining " className=" offer123">Offer Round - Joining</span> <div class=" pRel fl "> <span class="
+                interTxt " data-id=" 1067_2615 " title=" Offer Round - Joining " className=" offer123 interTxt">Offer Round - Joining</span> <div class=" pRel fl "> <span class="
                 outerArow "> <em class=" s_downArrow "></em></span> </div> </a>  <a class=" rjbtn " data-appid="
                 9575158 " data-stars=" Array "> Reject </a>  </div>    <div class=" interDrop fl menu1 pRel " id="
                 statusChangeMenu_9575158 ">   <a rel=" ver " href=" javascript:void(0); "><small class="
