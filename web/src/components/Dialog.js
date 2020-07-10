@@ -26,7 +26,10 @@ let dialogCloseButtonStyles = {
     width: '30px',
     height: '30px',
     fontWeight: 'bold',
-    alignSelf: 'flex-end'
+    alignSelf: 'flex-end',
+    fontSize: '20px',
+    float : 'right',
+
 };
 
 let dialogContent1 = {
@@ -39,19 +42,18 @@ let dialogContent2 = {
     wordWrap: 'break-word'
 }
 
-
 class Dialog extends Component {
     render() {
         let dialog = (
             <div style={dialogStyles}>
 		<div>
+                <strong style={{ fontSize:'16px' }}> Schedule Interview : </strong>
                 <button style={dialogCloseButtonStyles} onClick={this.props.onClose}>x</button>
-
-                <table style={dialogContent1} width="100%" cellspacing="0" cellpadding="15">  <tbody><tr> <td> Microsoft </td> </tr>  <tr> <td id="m_-8693798704384470617mailBodyData" style={dialogContent2}> Dear Ram, <br/><br/>An interview is being scheduled for testing bate1                 <ul>                 <li>Interview On: 11th July 2020</li>                 <li>Location: At your desk
-</li>                 <li>Interview Type: Video interview </li>                            <li>Duration: 1 hour(s) and 0 mins</li><br/><br/>                 ------------------------------------------------------------------------------------------------<br/>                 Join interview on - RMS WebRTC App <br/><a href={this.props.children} target="_blank">{this.props.children}</a>             
-		<br/>------------------------------------------------------------------------------------------------<br/>                 </ul><br/><br/>                 Please find the candidates details attached with the mail.<br/><br/>                 Thanks and Regards <br/>                
-<a href="mailto:surrya@naukri.com" target="_blank">surrya.@naukri.com</a> </td>   </tr>  </tbody></table>
-                <div>{this.props.children}</div>
+                <table style={dialogContent1} width="100%" cellspacing="0" cellpadding="15">  <tbody><tr> <td> Microsoft </td> </tr>  <tr> <td id="m_-8693798704384470617mailBodyData" style={dialogContent2}> Dear Candidate, <br/><br/>An interview is being scheduled for Requirement ABC               <ul>         <li>Interview On: 11th July 2020</li>                 <li>Location: At your desk
+</li>                 <li>Interview Type: Video interview </li>                            <li>Duration: 1 hour(s) and 0 mins</li><br/>                ------------------------------------------------------------------------------------------------    <br />    Join interview on - RMS WebRTC App <br/><a href={this.props.children} target="_blank">{this.props.children}</a>             
+		<br/>------------------------------------------------------------------------------------------------<br/>                 </ul><br/> Please find the candidates details attached with the mail.<br/><br/>                 Thanks and Regards <br/>                
+<a href="mailto:surrya@naukri.com" target="_blank">surrya.@naukri.com</a> </td> </tr>  </tbody></table>
+               
 		</div>
             </div>
         );

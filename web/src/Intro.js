@@ -58,8 +58,7 @@ class Intro extends Component {
            <div>
 
           <Dialog isOpen={this.state.isOpen} onClose={(e) => this.setState({ isOpen: false })}>
-          {this.state.loc}{this.state.now}  is the current value of the link : 
-          
+          {this.state.loc}{this.state.now}
            </Dialog>
   
               <div>
@@ -115,7 +114,7 @@ class Intro extends Component {
                 tipText ">09 Jul 20</em></p> </a>  </div> </div>   </div>    <div id="
                 statusDataCaptureDiv_9575158 ">                 <div class=" subStage srpStatus cle " id="
                 subStageStatusChange ">  <div class=" fl "> <div> <div>  Joining as  <span class="
-                offrDesignation ">yfKzYVfomN</span>  </div> <div class=" mt5 "> <div> <span class="
+                offrDesignation ">Software developer</span>  </div> <div class=" mt5 "> <div> <span class="
                 salOffer ">Salary Offered: </span>  <span title=" ₹89,470 ">₹89,470</span>  <span class="
                 joiningOn ">Offered On: </span> <span>10 Jul 2020 </span> <span class="
                 joiningOn ">Joining On: </span> <span>19 Jul 2020</span> </div> </div> </div>  </div>    <div class="
@@ -182,7 +181,7 @@ class Intro extends Component {
                 tipText ">09 Jul 20</em></p> </a>  </div> </div>   </div>    <div id="
                 statusDataCaptureDiv_9575158 ">                 <div class=" subStage srpStatus cle " id="
                 subStageStatusChange ">  <div class=" fl "> <div> <div>  Joining as  <span class="
-                offrDesignation ">yfKzYVfomN</span>  </div> <div class=" mt5 "> <div> <span class="
+                offrDesignation ">Software Developer</span>  </div> <div class=" mt5 "> <div> <span class="
                 salOffer ">Salary Offered: </span>  <span title=" ₹89,470 ">₹89,470</span>  <span class="
                 joiningOn ">Offered On: </span> <span>10 Jul 2020 </span> <span class="
                 joiningOn ">Joining On: </span> <span>19 Jul 2020</span> </div> </div> </div>  </div>    <div class="
