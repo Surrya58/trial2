@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './beauty.css'
 import './trial.css'
-import './trial1.css'
+// import './trial1.css'
 import './trial2.css'
 import Dialog from './components/Dialog';
 import { BrowserRouter as Router, Link, NavLink, Redirect, Prompt} from 'react-router-dom';

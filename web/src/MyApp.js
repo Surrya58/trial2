@@ -29,7 +29,7 @@ class MyApp extends Component {
             urls : 'stun:stun.l.google.com:19302'
           },
           {
-            url: 'turn:54.160.89.84:3478',
+            url: 'turn:3.80.174.118:3478',
             credential: 'root',
             username: 'root',
           }
