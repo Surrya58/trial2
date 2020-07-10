@@ -1357,7 +1357,8 @@ div:hover>.verticalTrack {
 
 .cle {
     min-height: 0;
-    _zoom: 1
+    _zoom: 1;
+    margin-bottom: 10px;
 }
 
 .cle:after {
