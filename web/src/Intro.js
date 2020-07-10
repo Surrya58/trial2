@@ -14,7 +14,7 @@ class Intro extends Component {
         this.state =  {
         now : '',
         pp : window.location.pathname.length ,
-        loc: window.location.href ,
+        loc: window.location.href,
         isOpen:false 
         }
         this._clickButton = this._clickButton.bind(this);
@@ -30,13 +30,13 @@ class Intro extends Component {
 
     getCurrentDate() { 
       var tempDate = new Date();
-      var date = ' ' + tempDate.getFullYear() 
+      var date = '-' + tempDate.getFullYear() 
       + (tempDate.getMonth()+1) 
-      + tempDate.getDate() 
+      + tempDate.getDate()  + '-'
       + tempDate.getHours()
       + tempDate.getMinutes()
       + tempDate.getSeconds()
-      + tempDate.getMilliseconds() + ' ';
+      + tempDate.getMilliseconds() + '';
 
       this.setState({ now : date });
 
