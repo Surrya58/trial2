@@ -30,7 +30,7 @@ class Intro extends Component {
 
     getCurrentDate() { 
       var tempDate = new Date();
-      var date = '-' + tempDate.getFullYear() 
+      var date =tempDate.getFullYear() 
       + (tempDate.getMonth()+1) 
       + tempDate.getDate()  + '-'
       + tempDate.getHours()
@@ -58,7 +58,7 @@ class Intro extends Component {
            <div>
 
           <Dialog isOpen={this.state.isOpen} onClose={(e) => this.setState({ isOpen: false })}>
-          {this.state.loc}{this.state.now}
+             {this.state.loc + this.state.now}
            </Dialog>
   
               <div>
